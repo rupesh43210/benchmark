@@ -1,0 +1,29 @@
+# Ignore benchmark reports
+benchmark_report_*.json
+
+# macOS system files
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Logs
+*.log
+
+# VSCode settings (if any)
+.vscode/
+
+# Environment files (if used later)
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Build artifacts
+dist/
+build/
