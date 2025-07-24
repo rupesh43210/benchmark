@@ -1,0 +1,204 @@
+{
+  "timestamp": "2025-07-24T03:52:05.701Z",
+  "system": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpuCount": 16,
+    "totalMemory": 128,
+    "cpuModel": "Apple M3 Max",
+    "nodeVersion": "v22.11.0",
+    "osVersion": "24.5.0"
+  },
+  "cpu": {
+    "model": "Apple M3 Max",
+    "speed": 2400,
+    "cores": 16,
+    "architecture": "arm64",
+    "features": [
+      "NEON",
+      "ARM64",
+      "Apple Silicon"
+    ],
+    "chipset": "Apple M3"
+  },
+  "gpus": [
+    {
+      "name": "Apple M3 Max",
+      "vendor": "Apple",
+      "apis": [
+        "Metal",
+        "OpenCL",
+        "WebGL"
+      ],
+      "compute": true,
+      "memory": "Shared",
+      "cores": 10
+    }
+  ],
+  "results": {
+    "cpu": {
+      "totalTime": 724.2082079999999,
+      "totalOpsPerSecond": 555094306.8761102,
+      "efficiency": 80.07489160665521,
+      "results": [
+        {
+          "result": -1529069424,
+          "duration": 516.18075,
+          "iterations": 20000000,
+          "opsPerSecond": 38746117.517943084,
+          "workerId": 0
+        },
+        {
+          "result": -1529069424,
+          "duration": 528.558875,
+          "iterations": 20000000,
+          "opsPerSecond": 37838736.5078299,
+          "workerId": 4
+        },
+        {
+          "result": -1529069424,
+          "duration": 549.347458,
+          "iterations": 20000000,
+          "opsPerSecond": 36406830.88407046,
+          "workerId": 5
+        },
+        {
+          "result": -1529069424,
+          "duration": 554.44175,
+          "iterations": 20000000,
+          "opsPerSecond": 36072319.58992987,
+          "workerId": 8
+        },
+        {
+          "result": -1529069424,
+          "duration": 551.819375,
+          "iterations": 20000000,
+          "opsPerSecond": 36243743.70689684,
+          "workerId": 10
+        },
+        {
+          "result": -1529069424,
+          "duration": 563.9845,
+          "iterations": 20000000,
+          "opsPerSecond": 35461967.48314892,
+          "workerId": 7
+        },
+        {
+          "result": -1529069424,
+          "duration": 569.117417,
+          "iterations": 20000000,
+          "opsPerSecond": 35142133.06882505,
+          "workerId": 3
+        },
+        {
+          "result": -1529069424,
+          "duration": 573.698958,
+          "iterations": 20000000,
+          "opsPerSecond": 34861489.15055203,
+          "workerId": 2
+        },
+        {
+          "result": -1529069424,
+          "duration": 572.853958,
+          "iterations": 20000000,
+          "opsPerSecond": 34912912.30635086,
+          "workerId": 12
+        },
+        {
+          "result": -1529069424,
+          "duration": 575.771417,
+          "iterations": 20000000,
+          "opsPerSecond": 34736007.04982547,
+          "workerId": 1
+        },
+        {
+          "result": -1529069424,
+          "duration": 578.2637500000001,
+          "iterations": 20000000,
+          "opsPerSecond": 34586293.88406242,
+          "workerId": 13
+        },
+        {
+          "result": -1529069424,
+          "duration": 575.002917,
+          "iterations": 20000000,
+          "opsPerSecond": 34782432.24286112,
+          "workerId": 15
+        },
+        {
+          "result": -1529069424,
+          "duration": 591.1931669999999,
+          "iterations": 20000000,
+          "opsPerSecond": 33829890.324155256,
+          "workerId": 6
+        },
+        {
+          "result": -1529069424,
+          "duration": 593.1519169999999,
+          "iterations": 20000000,
+          "opsPerSecond": 33718174.76567306,
+          "workerId": 14
+        },
+        {
+          "result": -1529069424,
+          "duration": 691.8502080000001,
+          "iterations": 20000000,
+          "opsPerSecond": 28907991.598088812,
+          "workerId": 11
+        },
+        {
+          "result": -1529069424,
+          "duration": 693.3065839999999,
+          "iterations": 20000000,
+          "opsPerSecond": 28847266.79589704,
+          "workerId": 9
+        }
+      ]
+    },
+    "memory": [
+      {
+        "name": "L1 Cache",
+        "duration": 7.115125000000035,
+        "bandwidth": 3350.8698596519575,
+        "latency": 4.553680000000022,
+        "checksum": 39303
+      },
+      {
+        "name": "L2 Cache",
+        "duration": 4.686500000000024,
+        "bandwidth": 14389.193986435526,
+        "latency": 8.483471180878777,
+        "checksum": 672384
+      },
+      {
+        "name": "L3 Cache",
+        "duration": 0.593541999999843,
+        "bandwidth": 642700.4770725591,
+        "latency": 6.077870079998393,
+        "checksum": 810023
+      },
+      {
+        "name": "RAM",
+        "duration": 1.196749999999838,
+        "bandwidth": 901574.5325916299,
+        "latency": 34.66158245416495,
+        "checksum": 426395
+      }
+    ],
+    "gpu": [
+      {
+        "gpu": "Apple M3 Max",
+        "vendor": "Apple",
+        "apis": [
+          "Metal",
+          "OpenCL",
+          "WebGL"
+        ],
+        "matrixPerformance": 1.5271306587498323,
+        "computeThroughput": 0.3078307637247937,
+        "matrixTime": 1406.221292,
+        "computeTime": 242.03495799999973
+      }
+    ]
+  }
+}
