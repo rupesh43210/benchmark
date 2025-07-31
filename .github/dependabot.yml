@@ -1,0 +1,29 @@
+version: 2
+updates:
+  # Python (pip) dependencies (looks for requirements.txt by default)
+  - package-ecosystem: "pip"
+    directory: "/" # Change if your requirements.txt is in a different folder
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # Node.js (npm) dependencies (if you have package.json)
+  - package-ecosystem: "npm"
+    directory: "/" # Change if your package.json is in a different folder
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # Docker images (if you have a Dockerfile)
+  - package-ecosystem: "docker"
+    directory: "/" # Change if your Dockerfile is in a different folder
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+
+  # GitHub Actions workflows (for .github/workflows)
+  - package-ecosystem: "github-actions"
+    directory: "/" # .github/workflows is always in root or .github
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
