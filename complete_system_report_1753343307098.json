@@ -1,0 +1,782 @@
+{
+  "timestamp": "2025-07-24T07:48:27.084Z",
+  "system": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpuCount": 16,
+    "totalMemory": 128,
+    "cpuModel": "Apple M3 Max",
+    "nodeVersion": "v22.11.0",
+    "osVersion": "24.5.0",
+    "thermalSupport": {
+      "sensors": true,
+      "power": true,
+      "method": "powermetrics"
+    }
+  },
+  "cpu": {
+    "model": "Apple M3 Max",
+    "speed": 2400,
+    "cores": 16,
+    "architecture": "arm64",
+    "features": [
+      "NEON",
+      "ARM64",
+      "Apple Silicon"
+    ],
+    "thermalDesignPower": 65,
+    "chipset": "Apple M3"
+  },
+  "gpus": [
+    {
+      "name": "Apple M3 Max",
+      "vendor": "Apple",
+      "apis": [
+        "Metal",
+        "OpenCL",
+        "WebGL"
+      ],
+      "compute": true,
+      "memory": "Shared",
+      "cores": 10,
+      "thermalSupport": true
+    }
+  ],
+  "results": {
+    "cpu": {
+      "totalTime": 570.622416,
+      "totalOpsPerSecond": 617221006.1421164,
+      "efficiency": 90.94026851417978,
+      "results": [
+        {
+          "result": -1529069424,
+          "duration": 486.642917,
+          "iterations": 20000000,
+          "opsPerSecond": 41097896.016433746,
+          "workerId": 0
+        },
+        {
+          "result": -1529069424,
+          "duration": 493.319417,
+          "iterations": 20000000,
+          "opsPerSecond": 40541684.172143586,
+          "workerId": 5
+        },
+        {
+          "result": -1529069424,
+          "duration": 503.80174999999997,
+          "iterations": 20000000,
+          "opsPerSecond": 39698155.07786545,
+          "workerId": 10
+        },
+        {
+          "result": -1529069424,
+          "duration": 509.15454199999994,
+          "iterations": 20000000,
+          "opsPerSecond": 39280804.45170614,
+          "workerId": 6
+        },
+        {
+          "result": -1529069424,
+          "duration": 508.29662499999995,
+          "iterations": 20000000,
+          "opsPerSecond": 39347103.67199468,
+          "workerId": 15
+        },
+        {
+          "result": -1529069424,
+          "duration": 512.777,
+          "iterations": 20000000,
+          "opsPerSecond": 39003309.4308052,
+          "workerId": 4
+        },
+        {
+          "result": -1529069424,
+          "duration": 517.910791,
+          "iterations": 20000000,
+          "opsPerSecond": 38616689.1046686,
+          "workerId": 12
+        },
+        {
+          "result": -1529069424,
+          "duration": 520.4205,
+          "iterations": 20000000,
+          "opsPerSecond": 38430461.521020025,
+          "workerId": 9
+        },
+        {
+          "result": -1529069424,
+          "duration": 526.0505830000001,
+          "iterations": 20000000,
+          "opsPerSecond": 38019157.56074734,
+          "workerId": 7
+        },
+        {
+          "result": -1529069424,
+          "duration": 529.7634580000001,
+          "iterations": 20000000,
+          "opsPerSecond": 37752698.29954937,
+          "workerId": 1
+        },
+        {
+          "result": -1529069424,
+          "duration": 528.7809589999999,
+          "iterations": 20000000,
+          "opsPerSecond": 37822844.52492928,
+          "workerId": 3
+        },
+        {
+          "result": -1529069424,
+          "duration": 525.875292,
+          "iterations": 20000000,
+          "opsPerSecond": 38031830.558032766,
+          "workerId": 14
+        },
+        {
+          "result": -1529069424,
+          "duration": 525.633541,
+          "iterations": 20000000,
+          "opsPerSecond": 38049322.27488884,
+          "workerId": 11
+        },
+        {
+          "result": -1529069424,
+          "duration": 525.5365,
+          "iterations": 20000000,
+          "opsPerSecond": 38056348.13186143,
+          "workerId": 13
+        },
+        {
+          "result": -1529069424,
+          "duration": 545.619292,
+          "iterations": 20000000,
+          "opsPerSecond": 36655595.38169703,
+          "workerId": 2
+        },
+        {
+          "result": -1529069424,
+          "duration": 543.2257500000001,
+          "iterations": 20000000,
+          "opsPerSecond": 36817105.963772886,
+          "workerId": 8
+        }
+      ]
+    },
+    "memory": [
+      {
+        "name": "L1 Cache",
+        "duration": 6.654166999999916,
+        "bandwidth": 3582.9966260474907,
+        "latency": 4.2586668799999465,
+        "checksum": 733731
+      },
+      {
+        "name": "L2 Cache",
+        "duration": 4.207208999999921,
+        "bandwidth": 16028.430633570071,
+        "latency": 7.615861795248685,
+        "checksum": 257816
+      },
+      {
+        "name": "L3 Cache",
+        "duration": 0.7947500000000218,
+        "bandwidth": 479987.0733721164,
+        "latency": 8.138240000000224,
+        "checksum": 574266
+      },
+      {
+        "name": "RAM",
+        "duration": 1.0960410000000138,
+        "bandwidth": 984415.1102731318,
+        "latency": 31.744738244955936,
+        "checksum": 803993
+      }
+    ],
+    "gpu": [
+      {
+        "gpu": "Apple M3 Max",
+        "vendor": "Apple",
+        "apis": [
+          "Metal",
+          "OpenCL",
+          "WebGL"
+        ],
+        "matrixPerformance": 1.5926610568971835,
+        "matrixTime": 1348.362
+      }
+    ]
+  },
+  "stressTest": {
+    "testName": "combined",
+    "duration": 90,
+    "startTime": 1753343216468,
+    "thermalData": [
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343218469
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343228473
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343238477
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343248483
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343250484
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343252484
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343254485
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343256487
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343258487
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343260488
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343262489
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343264490
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343266491
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343268492
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343270492
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343272493
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343274495
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343276495
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343278497
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343280496
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343282497
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343284498
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343286499
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343288500
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343290501
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343292502
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343294504
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343296504
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343298505
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343300507
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343302506
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343304507
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "timestamp": 1753343306507
+      }
+    ],
+    "powerData": [
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343223470
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343233475
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343243479
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343249766
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343250515
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343252517
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343254518
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343256519
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343258519
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343260519
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343262521
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343264523
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343266525
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343268525
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343270526
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343272526
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343274527
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343276528
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343278530
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343280529
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343282530
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343284532
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343286529
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343288531
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343290533
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343292532
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343294537
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343296532
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343298535
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343300536
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343302536
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343304542
+      },
+      {
+        "cpu": null,
+        "gpu": [],
+        "total": null,
+        "timestamp": 1753343306529
+      }
+    ],
+    "performanceData": [],
+    "stability": {
+      "crashes": 0,
+      "errors": []
+    },
+    "results": {
+      "cpu": {
+        "type": "cpu",
+        "totalTime": 90614.40420799999,
+        "avgOpsPerSecond": 6635904.507075416,
+        "totalOperations": 9555894000,
+        "threadsUsed": 16,
+        "intensity": 0.9,
+        "workerResults": [
+          {
+            "duration": 90000.77291700001,
+            "iterations": 597150000,
+            "opsPerSecond": 6634943.019330515,
+            "result": -895478,
+            "intensity": 0.9,
+            "workerId": 2
+          },
+          {
+            "duration": 90000.468667,
+            "iterations": 600435000,
+            "opsPerSecond": 6671465.258937684,
+            "result": 514055,
+            "intensity": 0.9,
+            "workerId": 6
+          },
+          {
+            "duration": 90000.96920800001,
+            "iterations": 598590000,
+            "opsPerSecond": 6650928.376300113,
+            "result": -111870,
+            "intensity": 0.9,
+            "workerId": 1
+          },
+          {
+            "duration": 90000.197417,
+            "iterations": 596880000,
+            "opsPerSecond": 6631985.452592531,
+            "result": 325297,
+            "intensity": 0.9,
+            "workerId": 9
+          },
+          {
+            "duration": 90000.61004099999,
+            "iterations": 595935000,
+            "opsPerSecond": 6621455.118232204,
+            "result": 455195,
+            "intensity": 0.9,
+            "workerId": 4
+          },
+          {
+            "duration": 90000.89175000001,
+            "iterations": 596421000,
+            "opsPerSecond": 6626834.339116422,
+            "result": 91190,
+            "intensity": 0.9,
+            "workerId": 3
+          },
+          {
+            "duration": 90000.34025,
+            "iterations": 597411000,
+            "opsPerSecond": 6637874.905145151,
+            "result": -663643,
+            "intensity": 0.9,
+            "workerId": 14
+          },
+          {
+            "duration": 90007.06654199999,
+            "iterations": 598752000,
+            "opsPerSecond": 6652277.682226255,
+            "result": -278348,
+            "intensity": 0.9,
+            "workerId": 7
+          },
+          {
+            "duration": 90010.511,
+            "iterations": 595296000,
+            "opsPerSecond": 6613627.6017808635,
+            "result": -475135,
+            "intensity": 0.9,
+            "workerId": 0
+          },
+          {
+            "duration": 90004.339041,
+            "iterations": 597483000,
+            "opsPerSecond": 6638379.953302323,
+            "result": 580822,
+            "intensity": 0.9,
+            "workerId": 10
+          },
+          {
+            "duration": 90000.29979199999,
+            "iterations": 597375000,
+            "opsPerSecond": 6637477.890413648,
+            "result": -219919,
+            "intensity": 0.9,
+            "workerId": 8
+          },
+          {
+            "duration": 90000.077958,
+            "iterations": 594234000,
+            "opsPerSecond": 6602594.280832835,
+            "result": -634421,
+            "intensity": 0.9,
+            "workerId": 11
+          },
+          {
+            "duration": 90000.86712499999,
+            "iterations": 598374000,
+            "opsPerSecond": 6648535.943203004,
+            "result": 606508,
+            "intensity": 0.9,
+            "workerId": 5
+          },
+          {
+            "duration": 90000.946417,
+            "iterations": 598068000,
+            "opsPerSecond": 6645130.121509843,
+            "result": -805833,
+            "intensity": 0.9,
+            "workerId": 12
+          },
+          {
+            "duration": 90000.29275000001,
+            "iterations": 596988000,
+            "opsPerSecond": 6633178.423744626,
+            "result": 936470,
+            "intensity": 0.9,
+            "workerId": 13
+          },
+          {
+            "duration": 90000.220709,
+            "iterations": 596502000,
+            "opsPerSecond": 6627783.746538634,
+            "result": -750929,
+            "intensity": 0.9,
+            "workerId": 15
+          }
+        ]
+      },
+      "memory": {
+        "type": "memory",
+        "duration": 90010.533417,
+        "cycles": 2748,
+        "throughputGBps": 183.17856115366564,
+        "sizeGB": 2,
+        "checksum": 0.6304970659836893
+      },
+      "gpu": {
+        "type": "gpu",
+        "totalGflops": 4.12158050736012,
+        "avgGflops": 1.03039512684003,
+        "complexity": 0.8,
+        "workersUsed": 4,
+        "workerResults": [
+          {
+            "duration": 90047.456833,
+            "operations": 487,
+            "gflops": 1.032371734322337,
+            "matrixSize": 457,
+            "complexity": 0.8,
+            "checksum": 1.5852932929992676,
+            "workerId": 3
+          },
+          {
+            "duration": 90088.508625,
+            "operations": 486,
+            "gflops": 1.0297824063462788,
+            "matrixSize": 457,
+            "complexity": 0.8,
+            "checksum": 1.3428220748901367,
+            "workerId": 2
+          },
+          {
+            "duration": 90089.307125,
+            "operations": 487,
+            "gflops": 1.0318921540046198,
+            "matrixSize": 457,
+            "complexity": 0.8,
+            "checksum": 1.2238878011703491,
+            "workerId": 1
+          },
+          {
+            "duration": 90099.844917,
+            "operations": 485,
+            "gflops": 1.0275342126868847,
+            "matrixSize": 457,
+            "complexity": 0.8,
+            "checksum": 1.0910636186599731,
+            "workerId": 0
+          }
+        ]
+      },
+      "totalTime": 90614.97366599999,
+      "type": "combined"
+    },
+    "endTime": 1753343307083
+  }
+}

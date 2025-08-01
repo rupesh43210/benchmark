@@ -1,41 +1,32 @@
 version: 2
 updates:
-  # Python (pip) dependencies
-  - package-ecosystem: "pip"
-    directory: "/"                    # Adjust if your requirements.txt is in a subfolder
-    schedule:
-      interval: "weekly"
-      day: "monday"                   # Optional: Choose a specific day
-      time: "06:00"                   # UTC time
-    open-pull-requests-limit: 5
-    rebase-strategy: "auto"
-
   # Node.js (npm/yarn) dependencies
   - package-ecosystem: "npm"
-    directory: "/"                    # Adjust if package.json is in a subfolder
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "07:00"
-    open-pull-requests-limit: 5
-    rebase-strategy: "auto"
-
-  # Docker images
-  - package-ecosystem: "docker"
-    directory: "/"                    # Adjust if Dockerfile is in a subfolder
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "08:00"
-    open-pull-requests-limit: 3
-    rebase-strategy: "auto"
-
-  # GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"                    # Looks in .github/workflows
+    directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
       time: "09:00"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "rupesh"
+    assignees:
+      - "rupesh"
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "npm"
+    target-branch: "main"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
     open-pull-requests-limit: 5
     rebase-strategy: "auto"

@@ -1,0 +1,47 @@
+{
+  "name": "universal-hardware-benchmark",
+  "version": "3.0.0",
+  "description": "Universal Hardware Benchmark + Stress Test Suite - Comprehensive testing with thermal monitoring and stability analysis",
+  "main": "universal_benchmark.js",
+  "bin": {
+    "benchmark": "./universal_benchmark.js"
+  },
+  "scripts": {
+    "start": "node universal_benchmark.js",
+    "benchmark": "node universal_benchmark.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benchmark",
+    "stress-test",
+    "hardware",
+    "performance",
+    "cpu",
+    "gpu",
+    "memory",
+    "thermal",
+    "monitoring",
+    "stability"
+  ],
+  "author": "Rupesh",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupesh/benchmark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rupesh/benchmark/issues"
+  },
+  "homepage": "https://github.com/rupesh/benchmark#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "preferGlobal": true,
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
