@@ -1,29 +1,41 @@
 version: 2
 updates:
-  # Python (pip) dependencies (looks for requirements.txt by default)
+  # Python (pip) dependencies
   - package-ecosystem: "pip"
-    directory: "/" # Change if your requirements.txt is in a different folder
+    directory: "/"                    # Adjust if your requirements.txt is in a subfolder
     schedule:
       interval: "weekly"
+      day: "monday"                   # Optional: Choose a specific day
+      time: "06:00"                   # UTC time
     open-pull-requests-limit: 5
+    rebase-strategy: "auto"
 
-  # Node.js (npm) dependencies (if you have package.json)
+  # Node.js (npm/yarn) dependencies
   - package-ecosystem: "npm"
-    directory: "/" # Change if your package.json is in a different folder
+    directory: "/"                    # Adjust if package.json is in a subfolder
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "07:00"
     open-pull-requests-limit: 5
+    rebase-strategy: "auto"
 
-  # Docker images (if you have a Dockerfile)
+  # Docker images
   - package-ecosystem: "docker"
-    directory: "/" # Change if your Dockerfile is in a different folder
+    directory: "/"                    # Adjust if Dockerfile is in a subfolder
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "08:00"
     open-pull-requests-limit: 3
+    rebase-strategy: "auto"
 
-  # GitHub Actions workflows (for .github/workflows)
+  # GitHub Actions
   - package-ecosystem: "github-actions"
-    directory: "/" # .github/workflows is always in root or .github
+    directory: "/"                    # Looks in .github/workflows
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "09:00"
     open-pull-requests-limit: 5
+    rebase-strategy: "auto"
