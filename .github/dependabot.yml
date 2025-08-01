@@ -1,27 +1,6 @@
 version: 2
 updates:
-  # Node.js (npm/yarn) dependencies
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-    open-pull-requests-limit: 10
-    reviewers:
-      - "rupesh"
-    assignees:
-      - "rupesh"
-    commit-message:
-      prefix: "chore"
-      prefix-development: "chore"
-      include: "scope"
-    labels:
-      - "dependencies"
-      - "npm"
-    target-branch: "main"
-
-  # GitHub Actions
+  # GitHub Actions - monitors .github/workflows/ directory
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -30,3 +9,26 @@ updates:
       time: "08:00"
     open-pull-requests-limit: 5
     rebase-strategy: "auto"
+
+  # Note: npm ecosystem disabled since this project uses only Node.js built-in modules
+  # Uncomment the section below when you add npm dependencies to package.json
+  #
+  # - package-ecosystem: "npm"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "09:00"
+  #   open-pull-requests-limit: 10
+  #   reviewers:
+  #     - "rupesh"
+  #   assignees:
+  #     - "rupesh"
+  #   commit-message:
+  #     prefix: "chore"
+  #     prefix-development: "chore"
+  #     include: "scope"
+  #   labels:
+  #     - "dependencies"
+  #     - "npm"
+  #   target-branch: "main"
