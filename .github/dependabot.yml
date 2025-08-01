@@ -1,18 +1,9 @@
 version: 2
 updates:
-  # GitHub Actions - monitors .github/workflows/ directory
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "08:00"
-    open-pull-requests-limit: 5
-    rebase-strategy: "auto"
-
-  # Note: npm ecosystem disabled since this project uses only Node.js built-in modules
-  # Uncomment the section below when you add npm dependencies to package.json
-  #
+  # This project currently uses only Node.js built-in modules
+  # Dependabot configuration is prepared for future use
+  
+  # Uncomment the npm section below when you add dependencies to package.json
   # - package-ecosystem: "npm"
   #   directory: "/"
   #   schedule:
@@ -32,3 +23,13 @@ updates:
   #     - "dependencies"
   #     - "npm"
   #   target-branch: "main"
+
+  # Uncomment the GitHub Actions section below when you add workflows
+  # - package-ecosystem: "github-actions"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "08:00"
+  #   open-pull-requests-limit: 5
+  #   rebase-strategy: "auto"
