@@ -1,5 +1,6 @@
 # Ignore benchmark reports
 benchmark_report_*.json
+complete_system_report_*.json
 
 # macOS system files
 .DS_Store
