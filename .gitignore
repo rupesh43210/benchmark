@@ -8,7 +8,7 @@ complete_system_report_*.json
 # Node.js
 node_modules/
 npm-debug.log
-# Note: package-lock.json is needed for Dependabot vulnerability scanning
+package-lock.json
 
 # Logs
 *.log
